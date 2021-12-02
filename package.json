@@ -1,0 +1,19 @@
+{
+  "name": "msorce.github.io-generator",
+  "version": "1.0.0",
+  "description": "nextjs static site generator that generates my portfolio site using google sheets api as a database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msorce/msorce.github.io-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msorce/msorce.github.io-generator/issues"
+  },
+  "homepage": "https://github.com/msorce/msorce.github.io-generator#readme"
+}

@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import YoutubeVideo from "./features/YoutubeVideo"
 function App() {
   return (
     <div className="App">
@@ -18,6 +18,10 @@ function App() {
         >
           Learn React
         </a>
+        <h2>I teach coding with javascript on youtube</h2>
+        <YoutubeVideo id={"jQmZ8uCJmmw"} />
+        <YoutubeVideo id={"jQmZ8uCJmmw"} />
+        <YoutubeVideo id={"jQmZ8uCJmmw"} />
       </header>
     </div>
   );

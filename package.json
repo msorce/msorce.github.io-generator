@@ -4,7 +4,7 @@
   "description": "nextjs static site generator that generates my portfolio site using google sheets api as a database",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "cd ./msorce.github.io && npm start"
   },
   "repository": {
     "type": "git",

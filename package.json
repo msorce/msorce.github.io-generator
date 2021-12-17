@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/msorce/msorce.github.io-generator/issues"
   },
-  "homepage": "https://github.com/msorce/msorce.github.io-generator#readme"
+  "homepage": "https://github.com/msorce/msorce.github.io-generator#readme",
+  "dependencies": {
+    "@headlessui/react": "^1.4.2",
+    "@heroicons/react": "^1.0.5"
+  }
 }

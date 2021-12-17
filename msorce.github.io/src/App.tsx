@@ -1,10 +1,14 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import YoutubeVideo from "./features/YoutubeVideo"
+// import YoutubeVideo from "./features/Youtube/YoutubeVideo"\
+import VideoSection from "./features/VideoSection/VideoSection";
+import Hero from "./features/Hero/Hero"
 function App() {
   return (
     <div className="App">
+      <Hero />
+      <VideoSection />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -16,12 +20,12 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          {/* Learn React */}
         </a>
         <h2>I teach coding with javascript on youtube</h2>
+        {/* <YoutubeVideo id={"jQmZ8uCJmmw"} />
         <YoutubeVideo id={"jQmZ8uCJmmw"} />
-        <YoutubeVideo id={"jQmZ8uCJmmw"} />
-        <YoutubeVideo id={"jQmZ8uCJmmw"} />
+        <YoutubeVideo id={"jQmZ8uCJmmw"} /> */}
       </header>
     </div>
   );

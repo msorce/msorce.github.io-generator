@@ -110,12 +110,12 @@ export default function Hero() {
                                             </a>
                                         ))}
                                     </div>
-                                    <a
+                                    {/* <a
                                         href="#"
                                         className="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100"
                                     >
                                         Log in
-                                    </a>
+                                    </a> */}
                                 </div>
                             </Popover.Panel>
                         </Transition>
@@ -128,24 +128,24 @@ export default function Hero() {
                                 < span className="block text-indigo-600 xl:inline">Software Engineer</span>
                             </h1>
                             <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                                Hi I'm Mark a Software Engineer with an emphasis on the frontend, with 6 years of experience, well versed in JavaScript and JavaScript technologies, such as React.js and Redux. I like to make videos on youtube about algorithms. I also like to play the guitar and game.
+                                Hi I'm Mark a Software Engineer with an emphasis on the frontend, well versed in JavaScript and JavaScript technologies, such as React.js and Redux. I like to make videos on youtube about algorithms. I also like to play the guitar and game.
                             </p>
                             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                                 <div className="rounded-md shadow">
-                                    <a
+                                    {/* <a
                                         href="#"
                                         className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
                                     >
                                         Get started
-                                    </a>
+                                    </a> */}
                                 </div>
                                 <div className="mt-3 sm:mt-0 sm:ml-3">
-                                    <a
+                                    {/* <a
                                         href="#"
                                         className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
                                     >
                                         Live demo
-                                    </a>
+                                    </a> */}
                                 </div>
                             </div>
                         </div>

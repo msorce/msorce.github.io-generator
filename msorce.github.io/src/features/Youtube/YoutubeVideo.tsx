@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import './YoutubeVideo.css';
 
 function YoutubeVideo({ id }: { id: string }): JSX.Element {
@@ -7,7 +7,7 @@ function YoutubeVideo({ id }: { id: string }): JSX.Element {
             <iframe id="player"
                 width="100%"
                 height="100%"
-                src="https://www.youtube.com/embed/jQmZ8uCJmmw"
+                src={`https://www.youtube.com/embed/${id}`}
                 allow="fullscreen;">
             </iframe>
         </div>

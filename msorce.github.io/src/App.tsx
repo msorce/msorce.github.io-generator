@@ -4,7 +4,8 @@ import './App.css';
 // import YoutubeVideo from "./features/Youtube/YoutubeVideo"\
 import VideoSection from "./features/VideoSection/VideoSection";
 import Hero from "./features/Hero/Hero"
-function App() {
+
+const App: React.FC  = () => {
   return (
     <div className="App">
       <Hero />

@@ -2,7 +2,7 @@
 import React from 'react';
 // import './YoutubePlaylist.css';
 
-function YoutubePlaylist({ id }: { id: string }): JSX.Element {
+const YoutubePlaylist = ({ id }: { id: string }): JSX.Element => {
     return (
         <div className="w-full h-full object-center object-cover">
             <iframe id={id}

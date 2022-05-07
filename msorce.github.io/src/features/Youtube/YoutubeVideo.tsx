@@ -1,7 +1,8 @@
 // import React from 'react';
+import React from 'react';
 import './YoutubeVideo.css';
 
-function YoutubeVideo({ id }: { id: string }): JSX.Element {
+const YoutubeVideo = ({ id }: { id: string }): JSX.Element => {
     return (
         <div className="w-full h-full object-center object-cover">
             <iframe id="player"

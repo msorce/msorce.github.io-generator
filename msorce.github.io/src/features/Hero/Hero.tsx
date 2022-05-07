@@ -21,8 +21,7 @@ const navigation = [
         href: '#'
     },
 ];
-
-export default function Hero() {
+const Hero: React.FC = () => {
     return (
         <div className="relative bg-white overflow-hidden">
             <div className="max-w-7xl mx-auto">
@@ -162,3 +161,5 @@ export default function Hero() {
         </div >
     )
 }
+
+export default Hero;

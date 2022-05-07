@@ -1,8 +1,8 @@
 /*
-  This example requires Tailwind CSS v2.0+ 
-  
+  This example requires Tailwind CSS v2.0+
+
   This example requires some changes to your config:
-  
+
   ```
   // tailwind.config.js
   module.exports = {
@@ -47,7 +47,7 @@ const callouts = [
     },
 ]
 
-export default function VideoSection() {
+const VideoSection: React.FC = () => {
     return (
         <div className="bg-gray-100">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -84,3 +84,4 @@ export default function VideoSection() {
         </div>
     )
 }
+export default VideoSection;

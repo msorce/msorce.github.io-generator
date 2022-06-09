@@ -49,7 +49,7 @@ const callouts = [
 
 const VideoSection: React.FC = () => {
     return (
-        <div className="bg-gray-100">
+        <div className="bg-gray-300">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none">
                     <h2 className="text-2xl font-extrabold text-gray-800">I Make Videos on <a href="" className="underline text-red-600 hover:text-red-800 visited:text-red-600">YouTube</a> & Stream on <a href="" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600">Twitch</a></h2>
